@@ -76,7 +76,7 @@ export const OurWorkPage = (): JSX.Element => {
         {/* Arch Background Shape (Pushed down for more space) */}
         <div 
           className="absolute left-1/2 -translate-x-1/2"
-          style={{ top: '665px', width: '820px' }}
+          style={{ top: '750px', width: '820px' }}
         >
           <img
             src={archBackground}
@@ -89,7 +89,7 @@ export const OurWorkPage = (): JSX.Element => {
         {/* Stacked Button Section (Pushed down with the arch) */}
         <div 
           className="absolute left-1/2 -translate-x-1/2 z-10 flex flex-col items-center"
-          style={{ top: '615px', width: '450px' }}
+          style={{ top: '700px', width: '450px' }}
         >
           {/* Main Button Base with Text */}
           <div className="relative w-full z-30">
@@ -125,7 +125,7 @@ export const OurWorkPage = (): JSX.Element => {
         {/* Social Posts Grid (Pushed down accordingly) */}
         <div 
           className="absolute left-1/2 -translate-x-1/2 z-10"
-          style={{ top: '855px', width: '740px' }}
+          style={{ top: '940px', width: '740px' }}
         >
           <img
             src={socialGrid}
