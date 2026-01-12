@@ -14,26 +14,24 @@ import playbookButtonShadow2 from "@assets/Vector-1_1768201013388.png";
 
 export const OurWorkPage = (): JSX.Element => {
   return (
-    <div className="bg-white min-h-screen w-full flex justify-center overflow-x-hidden">
-      <div 
-        className="relative w-[1080px] h-[2059px] shrink-0 bg-white"
-      >
-        {/* Top Banner */}
-        <div 
-          className="absolute left-0 top-0 w-[1080px] h-[400px] overflow-hidden bg-[#0b0b1e]"
-        >
-          <img
-            src={topBanner}
-            className="w-full h-full object-cover"
-            alt="Zalani Collection NX Banner"
-            data-testid="img-banner-top"
-          />
-        </div>
+    <div className="bg-white min-h-screen w-full flex flex-col items-center overflow-x-hidden">
+      {/* Full-width Banner Container */}
+      <div className="w-full h-[400px] overflow-hidden bg-[#0b0b1e]">
+        <img
+          src={topBanner}
+          className="w-full h-full object-cover"
+          alt="Zalani Collection NX Banner"
+          data-testid="img-banner-top"
+        />
+      </div>
 
+      <div 
+        className="relative w-[1080px] h-[1659px] shrink-0 bg-white"
+      >
         {/* Zalani Collection NX Title */}
         <div 
           className="absolute left-1/2 -translate-x-1/2"
-          style={{ top: '480px', width: '380px' }}
+          style={{ top: '80px', width: '380px' }}
         >
           <img
             src={zalaniTitle}
@@ -46,7 +44,7 @@ export const OurWorkPage = (): JSX.Element => {
         {/* Subtitle (Driving Zalani...) */}
         <div 
           className="absolute left-1/2 -translate-x-1/2"
-          style={{ top: '560px', width: '680px' }}
+          style={{ top: '160px', width: '680px' }}
         >
           <img
             src={digitalPresenceText}
@@ -59,7 +57,7 @@ export const OurWorkPage = (): JSX.Element => {
         {/* Management and Influencer Marketing (Smaller, closer to subtitle, space below) */}
         <div 
           className="absolute left-1/2 -translate-x-1/2"
-          style={{ top: '600px', width: '420px' }}
+          style={{ top: '200px', width: '420px' }}
         >
           <img
             src={influencerMarketingText}
@@ -72,7 +70,7 @@ export const OurWorkPage = (): JSX.Element => {
         {/* Arch Background Shape (Pushed down for more space) */}
         <div 
           className="absolute left-1/2 -translate-x-1/2"
-          style={{ top: '750px', width: '820px' }}
+          style={{ top: '350px', width: '820px' }}
         >
           <img
             src={archBackground}
@@ -85,7 +83,7 @@ export const OurWorkPage = (): JSX.Element => {
         {/* Stacked Button Section (Pushed down with the arch) */}
         <div 
           className="absolute left-1/2 -translate-x-1/2 z-10 flex flex-col items-center"
-          style={{ top: '700px', width: '450px' }}
+          style={{ top: '300px', width: '450px' }}
         >
           {/* Main Button Base with Text */}
           <div className="relative w-full z-30">
@@ -121,7 +119,7 @@ export const OurWorkPage = (): JSX.Element => {
         {/* Social Posts Grid (Pushed down accordingly) */}
         <div 
           className="absolute left-1/2 -translate-x-1/2 z-10"
-          style={{ top: '940px', width: '740px' }}
+          style={{ top: '540px', width: '740px' }}
         >
           <img
             src={socialGrid}
