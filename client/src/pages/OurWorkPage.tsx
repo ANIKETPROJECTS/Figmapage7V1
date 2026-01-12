@@ -16,7 +16,7 @@ export const OurWorkPage = (): JSX.Element => {
   return (
     <div className="bg-white min-h-screen w-full flex justify-center overflow-auto">
       <div 
-        className="relative w-[1080px] h-[2059px] shrink-0 bg-white shadow-xl"
+        className="relative w-[1080px] h-[2059px] shrink-0 bg-white"
       >
         {/* Top Banner - Fixed width 1080px */}
         <div 
