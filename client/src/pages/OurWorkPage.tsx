@@ -3,6 +3,9 @@ import topBanner from "@assets/Rectangle-1_1768199902013.png";
 import zalaniTitle from "@assets/Zalani_Collection_NX_1768200191549.png";
 import digitalPresenceText from "@assets/Driving_Zalani_Collection_NX’s_digital_presence_through_social_1768200217260.png";
 import influencerMarketingText from "@assets/managem_ent_and_inﬂuencer_marketing._1768200382633.png";
+import archBackground from "@assets/Vector_1768200818418.png";
+import playbookBadge from "@assets/Inﬂuencer_Reels_Playbook_1768200818417.png";
+import socialGrid from "@assets/Rectangle_1768200818417.png";
 
 export const OurWorkPage = (): JSX.Element => {
   return (
@@ -62,6 +65,45 @@ export const OurWorkPage = (): JSX.Element => {
             className="w-full h-auto object-contain"
             alt="management and influencer marketing"
             data-testid="img-influencer-marketing"
+          />
+        </div>
+
+        {/* Arch Background Shape */}
+        <div 
+          className="absolute left-1/2 -translate-x-1/2"
+          style={{ top: '650px', width: '820px' }}
+        >
+          <img
+            src={archBackground}
+            className="w-full h-auto object-contain"
+            alt="Background Arch"
+            data-testid="img-arch-bg"
+          />
+        </div>
+
+        {/* Influencer Reels Playbook Badge */}
+        <div 
+          className="absolute left-1/2 -translate-x-1/2 z-10"
+          style={{ top: '675px', width: '450px' }}
+        >
+          <img
+            src={playbookBadge}
+            className="w-full h-auto object-contain"
+            alt="Influencer Reels Playbook"
+            data-testid="img-playbook-badge"
+          />
+        </div>
+
+        {/* Social Posts Grid */}
+        <div 
+          className="absolute left-1/2 -translate-x-1/2 z-10"
+          style={{ top: '915px', width: '740px' }}
+        >
+          <img
+            src={socialGrid}
+            className="w-full h-auto object-contain shadow-2xl rounded-lg"
+            alt="Social Posts Grid"
+            data-testid="img-social-grid"
           />
         </div>
       </div>
