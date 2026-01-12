@@ -37,7 +37,7 @@ export const OurWorkPage = (): JSX.Element => {
         {/* Zalani Collection NX Title */}
         <div 
           className="absolute left-1/2 -translate-x-1/2"
-          style={{ top: '480px', width: '270px' }}
+          style={{ top: '480px', width: '380px' }}
         >
           <img
             src={zalaniTitle}
@@ -50,7 +50,7 @@ export const OurWorkPage = (): JSX.Element => {
         {/* Driving Zalani... Subtitle */}
         <div 
           className="absolute left-1/2 -translate-x-1/2"
-          style={{ top: '550px', width: '480px' }}
+          style={{ top: '560px', width: '680px' }}
         >
           <img
             src={digitalPresenceText}
@@ -63,7 +63,7 @@ export const OurWorkPage = (): JSX.Element => {
         {/* management and influencer marketing... Image/Text */}
         <div 
           className="absolute left-1/2 -translate-x-1/2"
-          style={{ top: '595px', width: '360px' }}
+          style={{ top: '615px', width: '500px' }}
         >
           <img
             src={influencerMarketingText}
