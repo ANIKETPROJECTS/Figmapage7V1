@@ -23,12 +23,11 @@ export const OurWorkPage = (): JSX.Element => {
       >
         {/* Top Banner */}
         <div 
-          className="absolute left-0 top-0 w-full"
-          style={{ height: '422px' }}
+          className="absolute left-0 top-0 w-[1080px] h-[400px] overflow-hidden bg-[#0b0b1e]"
         >
           <img
             src={topBanner}
-            className="w-full h-auto object-contain"
+            className="w-full h-full object-cover"
             alt="Zalani Collection NX Banner"
             data-testid="img-banner-top"
           />
