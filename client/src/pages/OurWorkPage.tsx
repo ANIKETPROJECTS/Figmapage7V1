@@ -108,7 +108,7 @@ export const OurWorkPage = (): JSX.Element => {
             </div>
           </div>
           {/* Shadow Layers - Closer stacking with negative margins */}
-          <div className="w-full flex flex-col items-center -mt-[85px]">
+          <div className="w-full flex flex-col items-center -mt-[95px]">
             <img
               src={playbookButtonShadow1}
               className="w-[98%] h-auto object-contain z-20"
@@ -116,7 +116,7 @@ export const OurWorkPage = (): JSX.Element => {
             />
             <img
               src={playbookButtonShadow2}
-              className="w-[96%] h-auto object-contain z-10 -mt-[85px]"
+              className="w-[96%] h-auto object-contain z-10 -mt-[95px]"
               alt="Button Shadow 2"
             />
           </div>
