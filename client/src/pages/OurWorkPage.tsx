@@ -47,7 +47,7 @@ export const OurWorkPage = (): JSX.Element => {
           />
         </div>
 
-        {/* Driving Zalani... Subtitle */}
+        {/* Subtitle (Driving Zalani...) */}
         <div 
           className="absolute left-1/2 -translate-x-1/2"
           style={{ top: '560px', width: '680px' }}
@@ -60,10 +60,10 @@ export const OurWorkPage = (): JSX.Element => {
           />
         </div>
 
-        {/* management and influencer marketing... Image/Text */}
+        {/* Management and Influencer Marketing (Smaller, closer to subtitle, space below) */}
         <div 
           className="absolute left-1/2 -translate-x-1/2"
-          style={{ top: '615px', width: '500px' }}
+          style={{ top: '605px', width: '420px' }}
         >
           <img
             src={influencerMarketingText}
@@ -73,10 +73,10 @@ export const OurWorkPage = (): JSX.Element => {
           />
         </div>
 
-        {/* Arch Background Shape */}
+        {/* Arch Background Shape (Pushed down for more space) */}
         <div 
           className="absolute left-1/2 -translate-x-1/2"
-          style={{ top: '650px', width: '820px' }}
+          style={{ top: '680px', width: '820px' }}
         >
           <img
             src={archBackground}
@@ -86,10 +86,10 @@ export const OurWorkPage = (): JSX.Element => {
           />
         </div>
 
-        {/* Stacked Button Section */}
+        {/* Stacked Button Section (Pushed down with the arch) */}
         <div 
           className="absolute left-1/2 -translate-x-1/2 z-10 flex flex-col items-center"
-          style={{ top: '675px', width: '450px' }}
+          style={{ top: '705px', width: '450px' }}
         >
           {/* Main Button Base with Text */}
           <div className="relative w-full z-30">
@@ -122,10 +122,10 @@ export const OurWorkPage = (): JSX.Element => {
           </div>
         </div>
 
-        {/* Social Posts Grid */}
+        {/* Social Posts Grid (Pushed down accordingly) */}
         <div 
           className="absolute left-1/2 -translate-x-1/2 z-10"
-          style={{ top: '915px', width: '740px' }}
+          style={{ top: '945px', width: '740px' }}
         >
           <img
             src={socialGrid}
