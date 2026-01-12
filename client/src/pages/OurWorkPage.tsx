@@ -2,6 +2,7 @@ import React from "react";
 import topBanner from "@assets/Rectangle-1_1768199902013.png";
 import zalaniTitle from "@assets/Zalani_Collection_NX_1768200191549.png";
 import digitalPresenceText from "@assets/Driving_Zalani_Collection_NX’s_digital_presence_through_social_1768200217260.png";
+import influencerMarketingText from "@assets/managem_ent_and_inﬂuencer_marketing._1768200382633.png";
 
 export const OurWorkPage = (): JSX.Element => {
   return (
@@ -48,6 +49,19 @@ export const OurWorkPage = (): JSX.Element => {
             className="w-full h-auto object-contain"
             alt="Driving Zalani Collection NX's digital presence..."
             data-testid="img-digital-presence"
+          />
+        </div>
+
+        {/* management and influencer marketing... Image/Text */}
+        <div 
+          className="absolute left-1/2 -translate-x-1/2"
+          style={{ top: '595px', width: '360px' }}
+        >
+          <img
+            src={influencerMarketingText}
+            className="w-full h-auto object-contain"
+            alt="management and influencer marketing"
+            data-testid="img-influencer-marketing"
           />
         </div>
       </div>
