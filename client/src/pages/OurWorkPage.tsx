@@ -16,10 +16,7 @@ export const OurWorkPage = (): JSX.Element => {
   return (
     <div className="bg-white min-h-screen w-full flex justify-center overflow-x-hidden">
       <div 
-        className="relative w-[1080px] h-[2059px] shrink-0 origin-top bg-white"
-        style={{
-          transform: 'scale(var(--page-scale, 1))',
-        }}
+        className="relative w-[1080px] h-[2059px] shrink-0 bg-white"
       >
         {/* Top Banner */}
         <div 
@@ -134,17 +131,6 @@ export const OurWorkPage = (): JSX.Element => {
           />
         </div>
       </div>
-
-      <style>{`
-        div {
-          --page-scale: 1;
-        }
-        @media (max-width: 1080px) {
-          div {
-            --page-scale: calc(100vw / 1080);
-          }
-        }
-      `}</style>
     </div>
   );
 };
