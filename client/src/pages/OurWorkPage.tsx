@@ -14,11 +14,11 @@ import playbookButtonShadow2 from "@assets/Vector-1_1768201013388.png";
 
 export const OurWorkPage = (): JSX.Element => {
   return (
-    <div className="bg-white min-h-screen w-full flex justify-center overflow-x-hidden overflow-y-auto">
+    <div className="bg-white min-h-screen w-full flex flex-col items-center overflow-x-hidden overflow-y-auto">
       <div 
         className="relative w-[1080px] h-[2059px] shrink-0 bg-white"
       >
-        {/* Top Banner - Full Width of 1080px Container */}
+        {/* Top Banner - Fixed 1080px Width */}
         <div 
           className="absolute left-0 top-0 w-[1080px] h-[422px]"
         >
