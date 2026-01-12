@@ -4,8 +4,13 @@ import zalaniTitle from "@assets/Zalani_Collection_NX_1768200191549.png";
 import digitalPresenceText from "@assets/Driving_Zalani_Collection_NX’s_digital_presence_through_social_1768200217260.png";
 import influencerMarketingText from "@assets/managem_ent_and_inﬂuencer_marketing._1768200382633.png";
 import archBackground from "@assets/Vector_1768200818418.png";
-import playbookBadge from "@assets/Inﬂuencer_Reels_Playbook_1768200818417.png";
 import socialGrid from "@assets/Rectangle_1768200818417.png";
+
+// New images for the specific section
+import playbookText from "@assets/Inﬂuencer_Reels_Playbook_1768201013387.png";
+import playbookButtonBase from "@assets/Vector-3_1768201013387.png";
+import playbookButtonShadow1 from "@assets/Vector-2_1768201013388.png";
+import playbookButtonShadow2 from "@assets/Vector-1_1768201013388.png";
 
 export const OurWorkPage = (): JSX.Element => {
   return (
@@ -81,16 +86,37 @@ export const OurWorkPage = (): JSX.Element => {
           />
         </div>
 
-        {/* Influencer Reels Playbook Badge */}
+        {/* Stacked Button Section */}
         <div 
-          className="absolute left-1/2 -translate-x-1/2 z-10"
+          className="absolute left-1/2 -translate-x-1/2 z-10 flex flex-col items-center"
           style={{ top: '675px', width: '450px' }}
         >
+          {/* Main Button Base with Text */}
+          <div className="relative w-full">
+            <img
+              src={playbookButtonBase}
+              className="w-full h-auto object-contain"
+              alt="Button Base"
+            />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <img 
+                src={playbookText}
+                className="w-[80%] h-auto object-contain"
+                alt="Influencer Reels Playbook"
+                data-testid="img-playbook-text"
+              />
+            </div>
+          </div>
+          {/* Shadow Layers */}
           <img
-            src={playbookBadge}
-            className="w-full h-auto object-contain"
-            alt="Influencer Reels Playbook"
-            data-testid="img-playbook-badge"
+            src={playbookButtonShadow1}
+            className="w-[98%] h-auto object-contain -mt-2"
+            alt="Button Shadow 1"
+          />
+          <img
+            src={playbookButtonShadow2}
+            className="w-[96%] h-auto object-contain -mt-2"
+            alt="Button Shadow 2"
           />
         </div>
 
