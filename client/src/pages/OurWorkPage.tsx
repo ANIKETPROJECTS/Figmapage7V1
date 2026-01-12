@@ -157,13 +157,13 @@ export const OurWorkPage = (): JSX.Element => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         div {
           --page-scale: 1;
         }
         @media (max-width: 1080px) {
           div {
-            --page-scale: ${'calc(100vw / 1080)'};
+            --page-scale: calc(100vw / 1080);
           }
         }
       `}</style>
