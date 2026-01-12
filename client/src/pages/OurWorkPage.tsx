@@ -92,7 +92,7 @@ export const OurWorkPage = (): JSX.Element => {
           style={{ top: '675px', width: '450px' }}
         >
           {/* Main Button Base with Text */}
-          <div className="relative w-full">
+          <div className="relative w-full z-30">
             <img
               src={playbookButtonBase}
               className="w-full h-auto object-contain"
@@ -107,17 +107,19 @@ export const OurWorkPage = (): JSX.Element => {
               />
             </div>
           </div>
-          {/* Shadow Layers */}
-          <img
-            src={playbookButtonShadow1}
-            className="w-[98%] h-auto object-contain -mt-2"
-            alt="Button Shadow 1"
-          />
-          <img
-            src={playbookButtonShadow2}
-            className="w-[96%] h-auto object-contain -mt-2"
-            alt="Button Shadow 2"
-          />
+          {/* Shadow Layers - Closer stacking with negative margins */}
+          <div className="w-full flex flex-col items-center -mt-[85px]">
+            <img
+              src={playbookButtonShadow1}
+              className="w-[98%] h-auto object-contain z-20"
+              alt="Button Shadow 1"
+            />
+            <img
+              src={playbookButtonShadow2}
+              className="w-[96%] h-auto object-contain z-10 -mt-[85px]"
+              alt="Button Shadow 2"
+            />
+          </div>
         </div>
 
         {/* Social Posts Grid */}
