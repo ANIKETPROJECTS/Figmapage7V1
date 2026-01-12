@@ -63,7 +63,7 @@ export const OurWorkPage = (): JSX.Element => {
         {/* Management and Influencer Marketing (Smaller, closer to subtitle, space below) */}
         <div 
           className="absolute left-1/2 -translate-x-1/2"
-          style={{ top: '605px', width: '420px' }}
+          style={{ top: '600px', width: '420px' }}
         >
           <img
             src={influencerMarketingText}
@@ -76,7 +76,7 @@ export const OurWorkPage = (): JSX.Element => {
         {/* Arch Background Shape (Pushed down for more space) */}
         <div 
           className="absolute left-1/2 -translate-x-1/2"
-          style={{ top: '750px', width: '820px' }}
+          style={{ top: '665px', width: '820px' }}
         >
           <img
             src={archBackground}
@@ -89,7 +89,7 @@ export const OurWorkPage = (): JSX.Element => {
         {/* Stacked Button Section (Pushed down with the arch) */}
         <div 
           className="absolute left-1/2 -translate-x-1/2 z-10 flex flex-col items-center"
-          style={{ top: '775px', width: '450px' }}
+          style={{ top: '615px', width: '450px' }}
         >
           {/* Main Button Base with Text */}
           <div className="relative w-full z-30">
@@ -108,7 +108,7 @@ export const OurWorkPage = (): JSX.Element => {
             </div>
           </div>
           {/* Shadow Layers - Closer stacking with negative margins */}
-          <div className="w-full flex flex-col items-center -mt-[95px]">
+          <div className="w-full flex flex-col items-center -mt-[105px]">
             <img
               src={playbookButtonShadow1}
               className="w-[98%] h-auto object-contain z-20"
@@ -116,7 +116,7 @@ export const OurWorkPage = (): JSX.Element => {
             />
             <img
               src={playbookButtonShadow2}
-              className="w-[96%] h-auto object-contain z-10 -mt-[95px]"
+              className="w-[96%] h-auto object-contain z-10 -mt-[105px]"
               alt="Button Shadow 2"
             />
           </div>
@@ -125,7 +125,7 @@ export const OurWorkPage = (): JSX.Element => {
         {/* Social Posts Grid (Pushed down accordingly) */}
         <div 
           className="absolute left-1/2 -translate-x-1/2 z-10"
-          style={{ top: '1015px', width: '740px' }}
+          style={{ top: '855px', width: '740px' }}
         >
           <img
             src={socialGrid}
