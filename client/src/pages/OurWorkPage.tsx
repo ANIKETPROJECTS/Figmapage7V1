@@ -14,18 +14,17 @@ import playbookButtonShadow2 from "@assets/Vector-1_1768201013388.png";
 
 export const OurWorkPage = (): JSX.Element => {
   return (
-    <div className="bg-white min-h-screen w-full flex justify-center overflow-auto">
+    <div className="bg-white min-h-screen w-full flex justify-center overflow-x-hidden overflow-y-auto">
       <div 
         className="relative w-[1080px] h-[2059px] shrink-0 bg-white"
       >
-        {/* Top Banner - Fixed width 1080px */}
+        {/* Top Banner - Full Width of 1080px Container */}
         <div 
-          className="absolute left-0 top-0 w-[1080px]"
-          style={{ height: '422px' }}
+          className="absolute left-0 top-0 w-[1080px] h-[422px]"
         >
           <img
             src={topBanner}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-fill"
             alt="Zalani Collection NX Banner"
             data-testid="img-banner-top"
           />
