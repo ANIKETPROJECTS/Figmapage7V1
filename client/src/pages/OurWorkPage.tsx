@@ -1,4 +1,5 @@
 import React from "react";
+import topBanner from "@assets/Rectangle-1_1768199902013.png";
 
 export const OurWorkPage = (): JSX.Element => {
   return (
@@ -12,10 +13,10 @@ export const OurWorkPage = (): JSX.Element => {
         {/* First Image: Top Banner */}
         <div 
           className="absolute left-0 top-0 w-full"
-          style={{ height: '400px' }} // Height estimated from reference image, usually ~20% of 2059px
+          style={{ height: '400px' }}
         >
           <img
-            src="/attached_assets/Rectangle-1_1768199902013.png"
+            src={topBanner}
             className="w-full h-auto object-contain"
             alt="Zalani Collection NX Banner"
             data-testid="img-banner-top"
