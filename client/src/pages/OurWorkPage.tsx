@@ -14,17 +14,21 @@ import playbookButtonShadow2 from "@assets/Vector-1_1768201013388.png";
 
 export const OurWorkPage = (): JSX.Element => {
   return (
-    <div className="bg-white min-h-screen w-full flex flex-col items-center overflow-x-hidden overflow-y-auto">
+    <div className="bg-white min-h-screen w-full flex justify-center overflow-x-hidden">
       <div 
-        className="relative w-[1080px] h-[2059px] shrink-0 bg-white"
+        className="relative w-[1080px] h-[2059px] shrink-0 origin-top bg-white"
+        style={{
+          transform: 'scale(var(--page-scale, 1))',
+        }}
       >
-        {/* Top Banner - Fixed 1080px Width */}
+        {/* Top Banner */}
         <div 
-          className="absolute left-0 top-0 w-[1080px] h-[422px]"
+          className="absolute left-0 top-0 w-full"
+          style={{ height: '422px' }}
         >
           <img
             src={topBanner}
-            className="w-full h-full object-fill"
+            className="w-full h-auto object-contain"
             alt="Zalani Collection NX Banner"
             data-testid="img-banner-top"
           />
@@ -131,6 +135,17 @@ export const OurWorkPage = (): JSX.Element => {
           />
         </div>
       </div>
+
+      <style>{`
+        div {
+          --page-scale: 1;
+        }
+        @media (max-width: 1080px) {
+          div {
+            --page-scale: calc(100vw / 1080);
+          }
+        }
+      `}</style>
     </div>
   );
 };
