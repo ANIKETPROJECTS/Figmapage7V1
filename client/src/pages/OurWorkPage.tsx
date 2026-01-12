@@ -1,25 +1,53 @@
 import React from "react";
 import topBanner from "@assets/Rectangle-1_1768199902013.png";
+import zalaniTitle from "@assets/Zalani_Collection_NX_1768200191549.png";
+import digitalPresenceText from "@assets/Driving_Zalani_Collection_NX’s_digital_presence_through_social_1768200217260.png";
 
 export const OurWorkPage = (): JSX.Element => {
   return (
-    <div className="bg-[#0b0b1e] min-h-screen w-full flex justify-center overflow-x-hidden">
+    <div className="bg-white min-h-screen w-full flex justify-center overflow-x-hidden">
       <div 
-        className="relative w-[1080px] h-[2059px] shrink-0 origin-top bg-[#0b0b1e]"
+        className="relative w-[1080px] h-[2059px] shrink-0 origin-top bg-white"
         style={{
           transform: 'scale(var(--page-scale, 1))',
         }}
       >
-        {/* First Image: Top Banner */}
+        {/* Top Banner */}
         <div 
           className="absolute left-0 top-0 w-full"
-          style={{ height: '400px' }}
+          style={{ height: '422px' }}
         >
           <img
             src={topBanner}
             className="w-full h-auto object-contain"
             alt="Zalani Collection NX Banner"
             data-testid="img-banner-top"
+          />
+        </div>
+
+        {/* Zalani Collection NX Title */}
+        <div 
+          className="absolute left-1/2 -translate-x-1/2"
+          style={{ top: '480px', width: '270px' }}
+        >
+          <img
+            src={zalaniTitle}
+            className="w-full h-auto object-contain"
+            alt="Zalani Collection NX"
+            data-testid="img-zalani-title"
+          />
+        </div>
+
+        {/* Driving Zalani... Subtitle */}
+        <div 
+          className="absolute left-1/2 -translate-x-1/2"
+          style={{ top: '550px', width: '480px' }}
+        >
+          <img
+            src={digitalPresenceText}
+            className="w-full h-auto object-contain"
+            alt="Driving Zalani Collection NX's digital presence..."
+            data-testid="img-digital-presence"
           />
         </div>
       </div>
